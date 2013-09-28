@@ -24,6 +24,13 @@ h1 {
 	width: 100px;
 	font-size: 85px;
 	text-align: center;
+	font-family: comic sans;
+	-moz-user-select: none;
+ 	-webkit-user-select: none;
+ 	-khtml-user-select: none;
+ 	-o-user-select: none;
+ 	user-select: none;
+ 	cursor: pointer;
 }
 
 .class1:hover {
