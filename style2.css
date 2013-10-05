@@ -1,0 +1,122 @@
+
+h1 {
+	text-align: center;
+	font-family: Helvetica;
+	color: white;
+}
+
+#headtop {
+	width: 100px;
+	background: #1200db;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+#game {
+	width: 310px;
+	height: 210px;
+	margin: 0 auto;
+	margin-top: 50px;
+	position: relative;
+}
+
+.class1 {
+	float: left;
+	height: 100px;
+	width: 100px;
+	font-size: 85px;
+	text-align: center;
+	z-index: 0;
+	position: relative;
+}
+
+.class1:hover {
+	background: #d3d3d3;
+}
+
+.class2 {
+	width: 100px;
+	height: 25px;
+	margin: 0 auto;
+}
+
+.clear {
+	clear: both;
+}
+
+.endgame {
+	height: 70%;
+	width: 70%;
+	position: relative;
+	border: 2px solid navy;
+	z-index: 1;
+	margin: 0 auto;
+	bottom: 130px;
+	background: #d12d00;
+	opacity: .3;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#cell1 {
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+#cell2 {
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+}
+
+#cell3 {
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+}
+
+#cell4 {
+	border-right: 2px solid black; 
+	border-bottom: 2px solid black; 
+	border-top: 2px solid black;
+}
+
+#cell5 {
+	border-right: 2px solid black;
+	border-bottom: 2px solid black; 
+	border-left: 2px solid black; 
+	border-top: 2px solid black;
+}
+
+#cell6 {
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+}
+
+#cell7 {
+	border-right: 2px solid black;
+	border-top: 2px solid black;
+}
+
+#cell8 {
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+}
+
+#cell9 {
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+}
+
+
+
+
+#newgame {
+	width: 100px;
+	height: 50px;
+	color: white;
+	background: navy;
+	border-radius: 5px;
+	margin-top: 50px;
+}
